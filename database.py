@@ -106,6 +106,7 @@ def insert_financedata():
     conn.commit()
     conn.close()
 
+#读取population数据表中数据
 def select_population(year, total_amount, male_amount, female_amount, ma_scale, fema_scale):
     conn = sqlite3.connect('C:/Users/Tangyaorui/Desktop/cham/database.db')
     c = conn.cursor()
@@ -133,11 +134,14 @@ def select_population(year, total_amount, male_amount, female_amount, ma_scale, 
     ma_scale.reverse()
     fema_scale.reverse()
 
+#读取finance数据便中数据
 def select_finance(year, income_amount, outcome_amount, inspeed, outspeed):
     conn = sqlite3.connect('C:/Users/Tangyaorui/Desktop/cham/database.db')
     c = conn.cursor()
+    #---------------------
+    #从finance表中选择数据
+    #---------------------
     for i in range(1, 20):
-        #从finance表中选择数据
         c.execute('select * from finance where year=?', (2018 - i,))
         values = c.fetchall()
         print(values[0])
