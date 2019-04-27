@@ -124,13 +124,14 @@ def select_population(year, total_amount, male_amount, female_amount, ma_scale, 
     c.close()
     conn.close()
     # --------------------------------------------------------------
-    # 所获得的5个列表均为2018年-1999年，做一次转置，变为1999年-2018年
+    # 所获得的6个列表均为2018年-1999年，做一次转置，变为1999年-2018年
     # --------------------------------------------------------------
     year.reverse()
     total_amount.reverse()
     male_amount.reverse()
     female_amount.reverse()
     ma_scale.reverse()
+    fema_scale.reverse()
 
 def select_finance(year, income_amount, outcome_amount, inspeed, outspeed):
     conn = sqlite3.connect('C:/Users/Tangyaorui/Desktop/cham/database.db')
