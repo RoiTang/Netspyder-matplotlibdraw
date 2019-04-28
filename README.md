@@ -8,3 +8,7 @@
 这是男女性人口占比随年份变化折线图
 
 ![image](https://github.com/Tangpearl/Netspyder-matplotlibdraw/blob/master/男女性人口占比.png)
+
+这是财政收入支出随年份变化图
+
+![image](https://github.com/Tangpearl/Netspyder-matplotlibdraw/blob/master/财政收入支出.png)
