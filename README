@@ -1,4 +1,4 @@
 此项内容为USTC 2019春季学期python与深度学习第二次作业，作业内容为从国际统计局爬取数据存入本地数据库并从数据库中读取数据绘图。
 国家统计局网站为data.stats.gov.cn，这里，我选取了国家数据中的人口和财政这两项数据分别操作，最终绘图如下
-![image](https://github.com/Tangpearl/Netspyder-matplotlibdraw/blob/master/price.jpg)
-<img src="https://github.com/H874589148/Netspyder-matplotlibdraw/blob/master/price.jpg" width="270" height="152" alt="图片加载失败时，显示这段字"/>
+![image](https://github.com/Tangpearl/Netspyder-matplotlibdraw/blob/master/年末总人口.png)
+<img src="https://github.com/H874589148/Netspyder-matplotlibdraw/blob/master/年末总人口.png" width="270" height="152" alt="图片加载失败时，显示这段字"/>
