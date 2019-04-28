@@ -12,3 +12,7 @@
 这是财政收入支出随年份变化图
 
 ![image](https://github.com/Tangpearl/Netspyder-matplotlibdraw/blob/master/财政收入支出.png)
+
+这是财政收入支出增长速度随年份变化折线图
+
+![image](https://github.com/Tangpearl/Netspyder-matplotlibdraw/blob/master/财政收入支出增长速度.png)
