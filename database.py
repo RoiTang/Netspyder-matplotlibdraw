@@ -110,6 +110,7 @@ def insert_financedata():
     conn.close()
 
 #读取population数据表中数据
+#6个参数依次为年份，年末总人口，男性人口数，女性人口数，男性人口占比，女性人口占比
 def select_population(year, total_amount, male_amount, female_amount, ma_scale, fema_scale):
     conn = sqlite3.connect('C:/Users/Tangyaorui/Desktop/cham/database.db')
     c = conn.cursor()
@@ -138,6 +139,7 @@ def select_population(year, total_amount, male_amount, female_amount, ma_scale, 
     fema_scale.reverse()
 
 #读取finance数据便中数据
+#5个参数依次为年份，财政收入，财政支出，财政收入增长速度，财政支出增长速度
 def select_finance(year, income_amount, outcome_amount, inspeed, outspeed):
     conn = sqlite3.connect('C:/Users/Tangyaorui/Desktop/cham/database.db')
     c = conn.cursor()
