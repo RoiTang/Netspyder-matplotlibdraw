@@ -3,6 +3,8 @@
 
 noting.txt是四个py文件的说明
 
+下面是绘制的四张图
+
 这是年末总人口数随年份变化条形图
 
 ![image](https://github.com/Tangpearl/Netspyder-matplotlibdraw/blob/master/年末总人口.png)
