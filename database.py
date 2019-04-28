@@ -6,6 +6,9 @@ from netspyder import spyder_getfinance_data, spyder_getpopula_data
 def insert_populationdata():
     conn = sqlite3.connect('C:/Users/Tangyaorui/Desktop/cham/database.db')
     c = conn.cursor()
+    # ------------------------------------------------------------------------------------------------------------
+    # 创建数据表population,此表共有4列，年份year、总人口total_number、男性人口数male_number、女性人口数female_number
+    # ------------------------------------------------------------------------------------------------------------
     try:
         c.execute('create table population (year int primary key,total_number int,male_number int,female_number int)')
     #如果数据表已被创建
