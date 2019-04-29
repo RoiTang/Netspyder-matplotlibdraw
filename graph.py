@@ -30,9 +30,9 @@ def population_draw():
     plt.bar(np.arange(20), total_amount, width=0.8, label=u'年末总人口', color='r')
     #设置y轴取值范围、标注
     plt.ylim(125000, 140000)
-    plt.ylabel('年份')
+    plt.ylabel('年末总人口')
     #设置x轴标注、刻度、倾斜60°
-    plt.xlabel('年末总人口数')
+    plt.xlabel('年份')
     plt.xticks(np.arange(20), year)
     plt.xticks(rotation=60)
     #设置图例
