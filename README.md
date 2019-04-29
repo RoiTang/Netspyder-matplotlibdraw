@@ -7,7 +7,7 @@ noting.txt是四个py文件的说明
 
 这是年末总人口数随年份变化条形图
 
-![image](https://github.com/Tangpearl/Netspyder-matplotlibdraw/blob/master/年末总人口.png)
+![image](https://github.com/Tangpearl/Netspyder-matplotlibdraw/blob/master/年末总人口随年份变化.png)
 
 这是男女性人口占比随年份变化折线图
 
